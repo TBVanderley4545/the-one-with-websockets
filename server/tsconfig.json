@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "lib": ["ES5", "ES6"],
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6"
+  },
+  "include": ["./index.ts", "./src/**/*"]
+}
